@@ -13,7 +13,6 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    /* background-image: url(images/background.jpg); */
     background-size: cover;
     background-position: center;
 }
@@ -73,4 +72,57 @@ nav ul li a:hover::after {
 
 .header-text h1 span {
     color: #ff004f;
+}
+
+.header-col-1 {
+    padding: 50px 0;
+    flex-basis: 50%;
+}
+
+.header-col-1 img {
+    height: 80%;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+
+/* ---about-- */
+
+#about {
+    padding: 50px 0;
+    color: #ababab;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    flex-basis: 35%;
+}
+
+.about-col-2 {
+    flex-basis: 60%;
+}
+
+.about-col-2 p {
+    padding: 20px 0;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ababab;
+}
+
+.about-col-1 img {
+    height: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.sub-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
 }
