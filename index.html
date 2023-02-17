@@ -16,13 +16,15 @@
         <div class="container">
             <nav>
                 <img src="images/johnson_logo.jpg" class="logo">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
+                    <i class="fas fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
                 </ul>
+                <i class="fas fa-solid fa-bars" onclick="openMenu()"></i>
             </nav>
             <div class="row">
                 <div class="header-text">
@@ -171,6 +173,9 @@
                     </div>
                 </div>
             </div>
+            <div class="copyright">
+                <p>Copyright © JohnSoft Inc. Made with <i class="fa-solid fa-heart"></i> by Johnson Kaberere.</p>
+            </div>
         </div>
 
 
@@ -188,6 +193,18 @@
                 }
                 event.currentTarget.classList.add("active-link");
                 document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu")
+
+            function openMenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closeMenu() {
+                sidemenu.style.right = "-200px";
             }
         </script>
 
