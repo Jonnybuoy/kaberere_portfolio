@@ -10,6 +10,10 @@ body {
     color: #fff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #header {
     width: 100%;
     height: 100vh;
@@ -91,7 +95,7 @@ nav ul li a:hover::after {
 #about {
     padding: 50px 0;
     color: #ababab;
-    margin-top: 5px;
+    margin-top: 200px;
 }
 
 .row {
@@ -406,6 +410,9 @@ nav .fas {
     .header-text h1 {
         font-size: 30px;
     }
+    #about {
+        margin-top: 20px;
+    }
     nav .fas {
         display: block;
         font-size: 25px;
@@ -465,4 +472,10 @@ nav .fas {
     .copyright {
         font-size: 14px;
     }
+}
+
+#msg {
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }
