@@ -203,6 +203,7 @@ nav ul li a:hover::after {
 .stack-icons i {
     color: #ff004f;
     margin-right: 25px;
+    margin-bottom: 10px;
     font-size: 25px;
 }
 
