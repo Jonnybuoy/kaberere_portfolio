@@ -248,6 +248,7 @@ nav ul li a:hover::after {
 }
 
 .work img {
+    object-fit: cover;
     width: 100%;
     border-radius: 10px;
     display: block;
