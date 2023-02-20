@@ -180,6 +180,24 @@ nav ul li a:hover::after {
     margin-top: 20px;
 }
 
+.stack-icons {
+    display: inline-block;
+}
+
+.stack-icons h4 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.stack-icons i {
+    color: #ff004f;
+    margin-right: 25px;
+    font-size: 25px;
+}
+
 
 /* ---services--- */
 
