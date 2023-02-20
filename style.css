@@ -36,6 +36,14 @@ nav {
     width: 140px;
 }
 
+nav p {
+    margin-right: 700px;
+    font-size: 40px;
+    font-family: serif;
+    font-style: italic;
+    color: #ff004f;
+}
+
 nav ul li {
     display: inline-block;
     list-style: none;
