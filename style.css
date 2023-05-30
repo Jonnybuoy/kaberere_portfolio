@@ -275,9 +275,9 @@ nav ul li a:hover::after {
 }
 
 .work img {
-    object-fit: cover;
+    object-fit: fill;
     width: 100%;
-    height: 50%;
+    height: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
